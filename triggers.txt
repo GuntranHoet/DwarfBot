@@ -2,3 +2,5 @@ rock
 stone
 drg
 pickaxe
+glyphid
+hoxxes
