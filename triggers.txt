@@ -1,0 +1,4 @@
+rock
+stone
+drg
+pickaxe
