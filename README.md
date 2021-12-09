@@ -4,7 +4,7 @@
  A simple bot that replies to certain trigger words with dwarf quotes from Deep Rock Galactic.
 
 # Plug-and-play
- You can host your own 24/7 Discord bot when you run this on https://repl.it. It'll even take care of all the dependencies.
+ You can host your own Discord bot when you run this on https://repl.it. It'll even take care of all the dependencies.
  
 # Setup
  1. Create a Python repository on https://repl.it.
@@ -12,7 +12,7 @@
  3. Press run.
 
 # The game
- Go buy the game if you haven't already. I don't know the devs or am affiliated with them, they just made an awesome game. Go give them some love!
+ Go buy the game if you haven't already. I don't know the devs and am not affiliated with them, they just made an awesome game. Go give them some love!
  * Website: https://www.deeprockgalactic.com
  * Steam: https://store.steampowered.com/app/548430/Deep_Rock_Galactic
  * Xbox: https://www.microsoft.com/en-us/p/deep-rock-galactic/9nhfvwx1v7qj
