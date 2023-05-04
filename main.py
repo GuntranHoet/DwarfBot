@@ -43,13 +43,6 @@ def GetCooldownTminusSec():
 
 
 ##### DISCORD #####
-#bot = commands.Bot(command_prefix=CMD)
-#bot = discord.Client(intents=discord.Intents.default())
-##intents = discord.Intents.default()
-##intents.typing = True
-##intents.presences = True
-##intents.members = True
-##intents.messages = True
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=CMD, intents=intents)
 
@@ -67,9 +60,6 @@ async def on_ready():
 async def on_message(message):
     if message.author == bot.user:
         return
-
-    #if CMD in message.content:
-    #	return
 
     if not IsCooldownFinished():
         return
@@ -100,7 +90,6 @@ async def cooldown_update():
                 type=discord.ActivityType.watching,
                 name=f"cooldown: {tminus}s"),
                                       status=discord.Status.do_not_disturb)
-            #await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.custom, name=f"Cooldown: -{tminus}s"), status=discord.Status.do_not_disturb)
 
             #sleep and redo
             await asyncio.sleep(5)
@@ -108,5 +97,4 @@ async def cooldown_update():
 
 ##### CORE #####
 keep_alive()
-#bot.loop.create_task(cooldown_update())
 bot.run(TOKEN)
